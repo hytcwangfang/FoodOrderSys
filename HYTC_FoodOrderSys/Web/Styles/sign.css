@@ -1,0 +1,129 @@
+*{ margin: 0; padding: 0; font-family: 'Microsoft Yahei',Arial;}
+img{ border: 0; }
+ul,li{ list-style: none; }
+a{ text-decoration: none; }
+a:hover{ color: #f00; }
+
+.sig_logo{
+	padding: 30px 0 0 0;
+}
+.sig_content{
+	width: 100%;
+	height: 400px;
+	padding: 50px 0 0 0;
+}
+.sig_sign{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.sig_login{
+	position: absolute;
+	top: -70px;
+	right: 150px;
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	color: #676767;
+	border: 3px dotted #ccc;
+	padding: 0 20px;
+	background-color: #fff;
+}
+.sig_login:hover{
+	background-color: #7CBE56;
+	color: #fff;
+}
+.sig_left{
+	float: left;
+	width: 700px;
+	height: 100%;
+}
+.sig_left li{
+	width: 100%;
+	height: 40px;
+	padding: 5px 0 30px 0;
+}
+.sig_con{
+	display: block;
+	float: left;
+	width: 210px;
+	height: 40px;
+	text-align: right;
+	line-height: 40px;
+	color: #969696;
+}
+.sig_inputA{
+	float: left;
+	width: 288px;
+	height: 30px;
+	padding: 4px;
+	border: 1px solid #dfdfdf;
+	position: relative;
+}
+.sig_input{
+	display: block;
+	float: left;
+	width: 258px;
+	height: 30px;
+	line-height: 30px;
+	border: 0;
+	outline: 0;
+	font-size: 14px;
+}
+.sig_input_img{
+	display: block;
+	float: left;
+	width: 28px;
+	height: 28px;
+	padding: 1px;
+}
+.sig_intro{
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	display: block;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #675432;
+}
+.sig_erro{
+	display: block;
+	float: left;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	color: #f00;
+	padding: 0 0 0 10px;
+}
+.sig_btn{
+	display: block;
+	margin: 0 0 0 210px;
+	width: 260px;
+	height: 36px;
+	line-height: 36px;
+	color: #f0d6d3;
+	text-align: center;
+	font-size: 16px;
+	letter-spacing: 15px;
+	border-radius: 3px;
+	background-color: #e75e46;
+	background: linear-gradient(#e75e46,#dd4225);
+	cursor: pointer;
+}
+.sig_btn:hover{
+	background-color: #dd4225;
+	background: linear-gradient(#dd4225,#e75e46);
+}
+.sig_right{
+	float: right;
+	width: 380px;
+	height: 280px;
+	padding: 10px 0 0 0;
+}
+.sig_right img{
+	width: 230px;
+	height: 276px;
+}

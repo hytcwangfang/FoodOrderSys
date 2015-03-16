@@ -1,0 +1,315 @@
+﻿.rewidth
+{
+    width:892px;
+	float: right;
+}
+.foodclass
+{
+    width:100%;
+    height:auto;
+}
+.foodclassli
+{
+    width:100%;
+    height:26px;
+    line-height:26px;
+    padding:5px 0;
+    font-size:14px;
+    color:#907765;
+}
+.foodclassname
+{
+    display:block;
+    float:left;
+    width:80px;
+    height:100%;
+    text-align:right;
+    font-weight:700;
+    color:Navy;
+}
+.foodclasslist
+{
+    float:left;
+    width:912px;
+    height:100%;
+}
+.foodclasslist li
+{
+    display:inline-block;
+    height:100%;
+    padding:0 5px;
+}
+.autoheight
+{
+    height:auto;
+}
+.autoheight:after
+{
+    display:block;
+    width:0;
+    height:0;
+    content:".";
+    clear:both;
+    visibility:hidden;
+}
+.foodlist
+{
+    width:100%;
+    height:auto;
+    min-height:300px;
+    padding: 26px 0 0 30px;
+ }
+ .foodlist:after
+ {
+     display:block;
+     width:0;
+     height:0;
+     content:".";
+     clear:both;
+     visibility:hidden;
+ }
+.foodli
+{
+    float:left;
+    width:150px;
+    height:220px;
+    padding: 10px 22px;
+    position:relative;
+}
+.foodli:hover
+{
+    background-color:#F1EABF;
+   /* background-image:url("../images_data/0d6480844cf81dcf8bc79c1a48fd6625.jpg");*/
+    background-size:100% 150%;
+}
+.noclickimg
+{
+    display:block;
+    top:-20px;
+    right:36px;
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    position:absolute;
+}
+.foodlist a
+{
+    display:block;
+    width:100%;
+    height:150px;
+}
+.foodimg
+{
+    border:1px solid #ccc;
+    width:146px;
+    height:146px;
+    padding:1px;
+    background-color:White;
+}
+.fooddes
+{
+    width:140px;
+    height:20px;
+    line-height:20px;
+    padding:2px 0 0 0;
+}
+.likestar
+{
+    width:20px;
+    height:20px;
+}
+
+.pro_type{
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
+}
+.pro_type:after{
+	display: block;
+	width: 0;
+	height: 0;
+	content: ".";
+	clear: both;
+	visibility: hidden;
+}
+.proborder{
+	border-bottom: 1px solid #bebebe;
+}
+.pro_text{
+	float: left;
+	width: 70px;
+	padding: 0 0 0 10px;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 16px;
+	color: #a29d99;
+}
+.pro_ways{
+	float: left;
+	width: 800px;
+	height: auto;
+}
+.pro_post{
+	float: left;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px 0 0;
+}
+.pro_span{
+	display: block;
+	float: left;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #656565;
+	padding: 0 10px 0 0;
+}
+.foodprof
+{
+    font-size:12px;
+    letter-spacing:1px;
+    color:#333;
+    height:auto;
+    line-height:20px;
+    font-family:Arial;
+}
+.bggreenstyle
+{
+    background-color:rgb(3,214,0);
+    color:#fff;
+}
+.bgredstyle
+{
+    background-color:rgb(94,3,0);
+    color:#fff;
+}
+.pro_tomenu{
+	float: left;
+	display: block;
+	width: 10px;
+	height: 10px;
+	padding: 15px 0px;
+}
+.pro_large{
+	display: block;
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #000;
+	padding: 0 10px;
+	border: 1px solid #bebebe;
+	margin: 5px 0;
+	font-family:Arial;
+	cursor:pointer;
+}
+.pro_hui{
+	display: block;
+	width: auto;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #ccc;
+	padding: 0 10px;
+	border: 2px dotted #eee;
+	margin: 4px 0;
+}
+.pro_color{
+	display: block;
+	float: left;
+	width: 36px;
+	height: 36px;
+	padding: 1px;
+	border: 1px solid #bebebe;
+	margin: 1px 4px;
+	cursor: pointer;
+}
+.pro_countA{
+	width: 66px;
+	height: 20px;
+	border: 2px solid #e8e8e8;
+	border-right: 0;
+	margin: 3px auto;
+}
+.pro_change{
+	float: left;
+	width: 16px;
+	height: 20px;
+	border-right: 2px solid #e8e8e8;
+	background-color: #eee;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+.pro_count{
+	float: left;
+	width: 28px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	border-right: 2px solid #e8e8e8;
+}
+.foodname
+{
+    color:rgb(71,200,71);
+}
+.foodaction
+{
+    color:rgb(71,71,200);
+    cursor:pointer;
+}
+/*****************************购物车*************************************/
+.shopcar-caption
+{
+   width:100%;
+   height:26px;
+   line-height:26px;
+   background-color:#e65e56;
+   font-size:14px;
+   color:#fff; 
+}
+.shopcar-fill
+{
+    width:100%;
+    height:100%;
+}
+.goods-larger
+{
+    float:left;
+    width:74px;
+    padding:0 0 0 4px;
+    height:100%;
+    text-align:center;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.goods-justify
+{
+    float:left;
+    width:70px;
+    height:100%;
+    text-align:center;
+}
+.goods-small
+{
+    float:left;
+    width:50px;
+    height:100%;
+    text-align:center;
+}
+.shopcar-row
+{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    color:#333;
+    border-top:1px dotted #656565;
+}
+    
+    

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76564814-2C13-41AD-BC66-86652E5DD114}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Web</RootNamespace>
+    <AssemblyName>Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="FoodDetail.aspx" />
+    <Content Include="FoodMenu.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="images_data\06916824-fe7d-48c3-85f5-3837249e1cd2.jpg" />
+    <Content Include="images_data\1.jpg" />
+    <Content Include="images_data\1fef0dd9-1650-46ba-a751-37f032f8897e.jpg" />
+    <Content Include="images_data\2.jpg" />
+    <Content Include="images_data\29cb0bc0-d551-41a1-8ec5-c26f7a01094f.jpg" />
+    <Content Include="images_data\3.jpg" />
+    <Content Include="images_data\3a17fed8-1e8a-443f-9c08-ebed6c7b6349.jpg" />
+    <Content Include="images_data\3b45822f-55c8-41f9-8b68-32e54b632452.jpg" />
+    <Content Include="images_data\4.jpg" />
+    <Content Include="images_data\4ca2436a-fe91-4543-a481-351ce7f5f0d7.jpg" />
+    <Content Include="images_data\5.jpg" />
+    <Content Include="images_data\6.jpg" />
+    <Content Include="images_data\706bf338-716a-4d62-934e-634cb7cbcb48.jpg" />
+    <Content Include="images_data\adver1.jpg" />
+    <Content Include="images_data\adver2.jpg" />
+    <Content Include="images_data\adver3.jpg" />
+    <Content Include="images_data\adverimg2.png" />
+    <Content Include="images_data\albums.jpg" />
+    <Content Include="images_data\cloth1.jpg" />
+    <Content Include="images_data\cloth2.jpg" />
+    <Content Include="images_data\cloth3.jpg" />
+    <Content Include="images_data\comlogo.jpg" />
+    <Content Include="images_data\coo1.jpg" />
+    <Content Include="images_data\coo2.jpg" />
+    <Content Include="images_data\db56e26d-092c-478c-8e8c-1f8b7a263ee4.jpg" />
+    <Content Include="images_data\f01f1a09-23d5-410d-9fe0-22fa734a5981.jpg" />
+    <Content Include="images_data\footimg1.jpg" />
+    <Content Include="images_data\footimg2.jpg" />
+    <Content Include="images_data\footimg3.jpg" />
+    <Content Include="images_data\footimg4.jpg" />
+    <Content Include="images_data\g1.jpg" />
+    <Content Include="images_data\g2.jpg" />
+    <Content Include="images_data\g3.jpg" />
+    <Content Include="images_data\g4.jpg" />
+    <Content Include="images_data\g5.jpg" />
+    <Content Include="images_data\largeimg.jpg" />
+    <Content Include="images_data\like1.png" />
+    <Content Include="images_data\like2.png" />
+    <Content Include="images_data\like3.png" />
+    <Content Include="images_data\like4.png" />
+    <Content Include="images_data\mingpin.png" />
+    <Content Include="images_data\noodle\上海阳春面.jpg" />
+    <Content Include="images_data\noodle\乌冬面.jpg" />
+    <Content Include="images_data\noodle\五彩蝴蝶面.jpg" />
+    <Content Include="images_data\noodle\什菜拉面.jpg" />
+    <Content Include="images_data\noodle\什锦炒面.jpg" />
+    <Content Include="images_data\noodle\兰州拉面.jpg" />
+    <Content Include="images_data\noodle\兰州拉面1.jpg" />
+    <Content Include="images_data\noodle\养生粗粮面.jpg" />
+    <Content Include="images_data\noodle\冷面.jpg" />
+    <Content Include="images_data\noodle\北京炸酱面.jpg" />
+    <Content Include="images_data\noodle\半干面.jpg" />
+    <Content Include="images_data\noodle\半干面1.jpg" />
+    <Content Include="images_data\noodle\厦门面线.jpg" />
+    <Content Include="images_data\noodle\小煎鸡捞面.jpg" />
+    <Content Include="images_data\noodle\山西刀削面.jpg" />
+    <Content Include="images_data\noodle\快熟面.jpg" />
+    <Content Include="images_data\noodle\意大利面.jpg" />
+    <Content Include="images_data\noodle\扁豆闷面.jpg" />
+    <Content Include="images_data\noodle\手排面.jpg" />
+    <Content Include="images_data\noodle\手擀面.jpg" />
+    <Content Include="images_data\noodle\手擀面1.jpg" />
+    <Content Include="images_data\noodle\手擀面2.jpg" />
+    <Content Include="images_data\noodle\拉面大肉酱.jpg" />
+    <Content Include="images_data\noodle\拌面.jpg" />
+    <Content Include="images_data\noodle\挂面.jpg" />
+    <Content Include="images_data\noodle\新疆拉条.jpg" />
+    <Content Include="images_data\noodle\方便面.jpg" />
+    <Content Include="images_data\noodle\旗花面.jpg" />
+    <Content Include="images_data\noodle\日式叉烧汤拉面.jpg" />
+    <Content Include="images_data\noodle\日式海鲜乌冬面.jpg" />
+    <Content Include="images_data\noodle\日本拉面.jpg" />
+    <Content Include="images_data\noodle\朝鲜冷面.jpg" />
+    <Content Include="images_data\noodle\朝鲜冷面1.jpg" />
+    <Content Include="images_data\noodle\杂粮面.jpg" />
+    <Content Include="images_data\noodle\杏香糊汤面.jpg" />
+    <Content Include="images_data\noodle\武功旗花面.jpg" />
+    <Content Include="images_data\noodle\武汉热干面.jpg" />
+    <Content Include="images_data\noodle\汤面.jpg" />
+    <Content Include="images_data\noodle\河南烩面.jpg" />
+    <Content Include="images_data\noodle\港式面（加鸡蛋）.jpg" />
+    <Content Include="images_data\noodle\烤冷面.jpg" />
+    <Content Include="images_data\noodle\烩面.jpg" />
+    <Content Include="images_data\noodle\牛肉饸烙面.jpg" />
+    <Content Include="images_data\noodle\牛腩捞面.jpg" />
+    <Content Include="images_data\noodle\生鲜面.jpg" />
+    <Content Include="images_data\noodle\碱水面.jpg" />
+    <Content Include="images_data\noodle\碱水面1.jpg" />
+    <Content Include="images_data\noodle\红烧牛肉面.jpg" />
+    <Content Include="images_data\noodle\肥牛大肠沙爹面.jpg" />
+    <Content Include="images_data\noodle\蒸面.jpg" />
+    <Content Include="images_data\noodle\蝴蝶面.jpg" />
+    <Content Include="images_data\noodle\蝴蝶面1.jpg" />
+    <Content Include="images_data\noodle\酱烧乌冬焖面.jpg" />
+    <Content Include="images_data\noodle\陕西臊子面.jpg" />
+    <Content Include="images_data\noodle\香港大婆牛肉面.jpg" />
+    <Content Include="images_data\noodle\马兰拉面.jpg" />
+    <Content Include="images_data\noodle\鸡扒汤面.jpg" />
+    <Content Include="images_data\noodle\鸡蛋面.jpg" />
+    <Content Include="images_data\noodle\鸡西冷面.jpg" />
+    <Content Include="images_data\noodle\麻辣牛肉刀削面.jpg" />
+    <Content Include="images_data\noodle\龙头大头鱼手排面.jpg" />
+    <Content Include="images_data\product1.jpg" />
+    <Content Include="images_data\proimg1.jpg" />
+    <Content Include="images_data\proimg2.jpg" />
+    <Content Include="images_data\qiyi1.jpg" />
+    <Content Include="images_data\qiyi10.jpg" />
+    <Content Include="images_data\qiyi11.jpg" />
+    <Content Include="images_data\qiyi12.jpg" />
+    <Content Include="images_data\qiyi13.jpg" />
+    <Content Include="images_data\qiyi2.jpg" />
+    <Content Include="images_data\qiyi3.jpg" />
+    <Content Include="images_data\qiyi4.jpg" />
+    <Content Include="images_data\qiyi5.jpg" />
+    <Content Include="images_data\qiyi6.jpg" />
+    <Content Include="images_data\qiyi7.jpg" />
+    <Content Include="images_data\qiyi8.jpg" />
+    <Content Include="images_data\qiyi9.jpg" />
+    <Content Include="images_data\qiyicloth1.jpg" />
+    <Content Include="images_data\qiyicloth2.jpg" />
+    <Content Include="images_data\qiyicloth3.jpg" />
+    <Content Include="images_data\qiyicloth4.jpg" />
+    <Content Include="images_data\qiyilogo1.jpg" />
+    <Content Include="images_data\qiyilogo2.jpg" />
+    <Content Include="images_data\qiyilogo3.jpg" />
+    <Content Include="images_data\qiyilogo4.jpg" />
+    <Content Include="images_data\qiyilogo5.jpg" />
+    <Content Include="images_data\qiyilogo6.jpg" />
+    <Content Include="images_data\qiyilogo7.jpg" />
+    <Content Include="images_data\qiyilogo8.jpg" />
+    <Content Include="images_data\rice\回锅肉盖交饭.jpg" />
+    <Content Include="images_data\rice\宫爆鸡丁盖交饭.jpg" />
+    <Content Include="images_data\rice\猪肝盖交饭.jpg" />
+    <Content Include="images_data\rice\腰花盖交饭.jpg" />
+    <Content Include="images_data\rice\蚝油牛肉盖交饭.jpg" />
+    <Content Include="images_data\rice\鱼香肉丝盖交饭.jpg" />
+    <Content Include="images_data\rice\鱼香腰花盖交饭.jpg" />
+    <Content Include="images_data\rice\黑椒牛柳盖饭.jpg" />
+    <Content Include="images_tool\2_r62_c27.png" />
+    <Content Include="images_tool\albums.jpg" />
+    <Content Include="images_tool\atwho.png" />
+    <Content Include="images_tool\basket.jpg" />
+    <Content Include="images_tool\camera.jpg" />
+    <Content Include="images_tool\camera.png" />
+    <Content Include="images_tool\clicklike.jpg" />
+    <Content Include="images_tool\cloth1.jpg" />
+    <Content Include="images_tool\code.jpg" />
+    <Content Include="images_tool\collect.jpg" />
+    <Content Include="images_tool\colorshow.png" />
+    <Content Include="images_tool\comtype.jpg" />
+    <Content Include="images_tool\direct.png" />
+    <Content Include="images_tool\dirleft.jpg" />
+    <Content Include="images_tool\dirright.jpg" />
+    <Content Include="images_tool\handleft.jpg" />
+    <Content Include="images_tool\history1.png" />
+    <Content Include="images_tool\hotlove.jpg" />
+    <Content Include="images_tool\key.gif" />
+    <Content Include="images_tool\lanzi.png" />
+    <Content Include="images_tool\loginimg1.gif" />
+    <Content Include="images_tool\logo.png" />
+    <Content Include="images_tool\logo1.png" />
+    <Content Include="images_tool\logo2.png" />
+    <Content Include="images_tool\logo3.png" />
+    <Content Include="images_tool\logomeinv2.png" />
+    <Content Include="images_tool\love.png" />
+    <Content Include="images_tool\meinv1.png" />
+    <Content Include="images_tool\meinv2.png" />
+    <Content Include="images_tool\mood.png" />
+    <Content Include="images_tool\msg.jpg" />
+    <Content Include="images_tool\nanshi1.png" />
+    <Content Include="images_tool\nav.png" />
+    <Content Include="images_tool\nextarticle.jpg" />
+    <Content Include="images_tool\nextcom.jpg" />
+    <Content Include="images_tool\nextpage.jpg" />
+    <Content Include="images_tool\person.gif" />
+    <Content Include="images_tool\phone.png" />
+    <Content Include="images_tool\prevarticle.jpg" />
+    <Content Include="images_tool\prevpage.jpg" />
+    <Content Include="images_tool\proadver1.png" />
+    <Content Include="images_tool\promenu.jpg" />
+    <Content Include="images_tool\prosearch.jpg" />
+    <Content Include="images_tool\qiyibottom.jpg" />
+    <Content Include="images_tool\qiyifaith1.jpg" />
+    <Content Include="images_tool\qiyifaith2.jpg" />
+    <Content Include="images_tool\qiyifaith3.jpg" />
+    <Content Include="images_tool\qiyifaith4.jpg" />
+    <Content Include="images_tool\qiyinavi1.jpg" />
+    <Content Include="images_tool\qiyinavi2.jpg" />
+    <Content Include="images_tool\qiyinavi3.jpg" />
+    <Content Include="images_tool\qiyinavi4.jpg" />
+    <Content Include="images_tool\qiyinavi5.jpg" />
+    <Content Include="images_tool\qiyinavi6.jpg" />
+    <Content Include="images_tool\qiyinavi7.jpg" />
+    <Content Include="images_tool\qiyinavi8.jpg" />
+    <Content Include="images_tool\qiyinavi9.jpg" />
+    <Content Include="images_tool\reload.jpg" />
+    <Content Include="images_tool\reloadtrends.jpg" />
+    <Content Include="images_tool\scan.png" />
+    <Content Include="images_tool\search.jpg" />
+    <Content Include="images_tool\sign0.gif" />
+    <Content Include="images_tool\sign1.gif" />
+    <Content Include="images_tool\sign2.gif" />
+    <Content Include="images_tool\signcode.gif" />
+    <Content Include="images_tool\tabledir.jpg" />
+    <Content Include="images_tool\trade.jpg" />
+    <Content Include="images_tool\trendsmenu.jpg" />
+    <Content Include="images_tool\upimg.jpg" />
+    <Content Include="images_tool\way1.jpg" />
+    <Content Include="images_tool\way2.jpg" />
+    <Content Include="images_tool\way3.jpg" />
+    <Content Include="images_tool\xxx1.png" />
+    <Content Include="images_tool\xxx2.png" />
+    <Content Include="login.aspx" />
+    <Content Include="OrderPage.aspx" />
+    <Content Include="Scripts\albums.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\foodmenu.js" />
+    <Content Include="Scripts\index.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\product.js" />
+    <Content Include="Scripts\sign.js" />
+    <Content Include="Scripts\usernav.js" />
+    <Content Include="sign.aspx" />
+    <Content Include="Styles\albums.css" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\foodmenu.css" />
+    <Content Include="Styles\index.css" />
+    <Content Include="Styles\product.css" />
+    <Content Include="Styles\public.css" />
+    <Content Include="Styles\sign.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UserNav.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebService.asmx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FoodDetail.aspx.cs">
+      <DependentUpon>FoodDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodDetail.aspx.designer.cs">
+      <DependentUpon>FoodDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FoodMenu.aspx.cs">
+      <DependentUpon>FoodMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FoodMenu.aspx.designer.cs">
+      <DependentUpon>FoodMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="OrderPage.aspx.cs">
+      <DependentUpon>OrderPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OrderPage.aspx.designer.cs">
+      <DependentUpon>OrderPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sign.aspx.cs">
+      <DependentUpon>sign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sign.aspx.designer.cs">
+      <DependentUpon>sign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UserNav.aspx.cs">
+      <DependentUpon>UserNav.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserNav.aspx.designer.cs">
+      <DependentUpon>UserNav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebService.asmx.cs">
+      <DependentUpon>WebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="images_data\hotpot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{9D2A70EA-1D66-4A23-B9ED-CD048E455A9B}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{5544A9CC-F8C3-4CE9-861C-A24F9C16163C}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49361</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,7 @@
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\bin\Debug\DAL.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\bin\Debug\DAL.pdb
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\bin\Debug\Model.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\bin\Debug\Model.pdb
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\obj\Debug\DAL.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,9 @@
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\BLL.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\BLL.pdb
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\DAL.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\Model.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\DAL.pdb
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\bin\Debug\Model.pdb
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\obj\Debug\BLL.dll
+E:\毕业设计\我的毕业设计\HYTC_FoodOrderSys\BLL\obj\Debug\BLL.pdb
